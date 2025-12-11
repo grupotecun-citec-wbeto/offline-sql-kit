@@ -1,0 +1,36 @@
+
+{
+  "name": "@humberto/offline-sql-kit",
+  "version": "1.0.0",
+  "description": "Offline-first SQL engine for React Native with Drizzle ORM, live queries, and sync layer.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "react-native": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["react-native","sqlite","drizzle-orm","offline-first","sync","live-queries"],
+  "author": "Humberto Herrador",
+  "license": "MIT",
+  "dependencies": {
+    "drizzle-orm": "^0.30.0",
+    "eventemitter3": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-sqlite-storage": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
