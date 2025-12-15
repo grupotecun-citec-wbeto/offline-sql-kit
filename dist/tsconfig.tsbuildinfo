@@ -1,0 +1,1 @@
+{"root":["../src/index.ts","../src/core/db/connection.ts","../src/core/db/schema.example.ts","../src/core/events/dbeventbus.ts","../src/react/uselivequery.ts","../src/react/usesyncstatus.ts","../src/sync/syncadapter.ts","../src/sync/syncengine.ts","../src/sync/types.ts"],"version":"5.9.3"}

@@ -1,8 +1,7 @@
-
 {
-  "name": "@humberto/offline-sql-kit",
-  "version": "1.0.0",
-  "description": "Offline-first SQL engine for React Native with Drizzle ORM, live queries, and sync layer.",
+  "name": "@hherrador1/offline-sql-kit",
+  "version": "1.0.1",
+  "description": "Offline-first SQL engine for React Native with Drizzle ORM, live queries, and a generic sync layer.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.mjs",
@@ -14,11 +13,20 @@
     }
   },
   "scripts": {
-    "build": "tsc --build",
+    "build": "npx tsc --build",
     "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["react-native","sqlite","drizzle-orm","offline-first","sync","live-queries"],
+  "keywords": [
+    "react-native",
+    "sqlite",
+    "drizzle-orm",
+    "offline-first",
+    "sync",
+    "live-queries",
+    "realm",
+    "watermelondb"
+  ],
   "author": "Humberto Herrador",
   "license": "MIT",
   "dependencies": {
@@ -31,6 +39,8 @@
     "react-native-sqlite-storage": "*"
   },
   "devDependencies": {
-    "typescript": "^5.4.2"
+    "@types/react": "^19.2.7",
+    "@types/react-native-sqlite-storage": "^6.0.5",
+    "typescript": "^5.9.3"
   }
 }
