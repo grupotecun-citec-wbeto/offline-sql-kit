@@ -1,4 +1,4 @@
-# @hherrador1/offline-sql-kit
+# @hherrador1/react-native-offline-sql-kit
 
 Paquete offline-first para **React Native** que combina:
 
@@ -10,9 +10,9 @@ Paquete offline-first para **React Native** que combina:
 ## Instalación
 
 ```bash
-npm install @hherrador1/offline-sql-kit
+npm install @hherrador1/react-native-offline-sql-kit
 # o
-yarn add @hherrador1/offline-sql-kit
+yarn add @hherrador1/react-native-offline-sql-kit
 ```
 
 ## Guía de Uso
