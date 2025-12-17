@@ -1,0 +1,104 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.Spotlight-V100
+.Trashes
+desktop.ini
+$RECYCLE.BIN/
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.log
+*.bak
+*.orig
+*.rej
+
+# Build Artifacts
+build/
+dist/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Dependencies
+node_modules/
+vendor/
+venv/
+env/
+
+# Environment Variables
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs and Data
+*.log
+log/
+tmp/
+temp/
+*.sqlite
+*.sqlite3
+*.db
+
+# Python specific
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.venv/
+
+# Node.js specific
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Ruby specific
+.bundle/
+Gemfile.lock
+/.rake_tasks
+/coverage/
+
+# Java specific
+/bin/
+/out/
+.gradle/
+.project
+.classpath
+.settings/
+
+# C# specific
+[Bb]in/
+[Oo]bj/
+
+# macOS specific
+.fseventsd/
+.DocumentRevisions-V100/
+.TemporaryItems/
+.com.apple.timemachine.donotpresent
+
+# Windows specific
+*.suo
+*.user
+*.pdb
+*.opensdf
+*.sdf
