@@ -1,6 +1,6 @@
 {
   "name": "@hherrador1/offline-sql-kit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Offline-first SQL engine for React Native with Drizzle ORM, live queries, and a generic sync layer.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
